@@ -2,6 +2,10 @@ import locale
 import math
 
 def statement(invoice, plays):
+    result = generate_invoice_text(invoice, plays)
+    print(result)
+
+def generate_invoice_text(invoice, plays):
     totalAmount = 0
     volumeCredits = 0
     result = "statement for {client}\n".format(client=invoice.customer)
