@@ -1,7 +1,6 @@
 import locale
 import math
 
-
 def statement(invoice, plays):
     totalAmount = 0
     volumeCredits = 0
